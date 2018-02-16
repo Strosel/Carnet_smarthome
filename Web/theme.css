@@ -1,0 +1,121 @@
+*{
+  font-family: monospace;
+}
+
+#battery{
+  width: 150px;
+}
+
+#edge{
+  border: 5px solid black;
+  height: 125px;
+  width: 75px;
+  border-radius: 10px;
+  position: relative;
+  left: 31.25px;
+}
+
+#fill{
+  background: rgb(66, 244, 104);
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+#tip{
+  border-bottom: 10px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+#percent{
+  z-index: 3;
+}
+
+.fa-bolt{
+  font-size: 40px;
+}
+
+#charge, #addr{
+  position: absolute;
+  font-size: 15px;
+}
+
+#heat{
+  font-size: 100px;
+}
+
+#dist{
+}
+
+#dist>h1{
+  font-size: 40px;
+}
+
+#address{
+  font-size: 100px;
+}
+
+.fa-map{
+  position: relative;
+  top: 10px;
+}
+
+.fa-map-pin{
+  font-size: 50px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: darkred;
+}
+
+#window{
+}
+
+img{
+  height: 120px;
+  width: 120px;
+}
+
+#locked{
+  font-size: 100px;
+}
+
+#time{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+#content{
+  position: relative;
+  top: 201px;
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+  grid-gap: 75px;
+
+}
+
+#content> div{
+  margin:  0 auto;
+}
+
+#message{
+  height: 100px;
+  width: 300px;
+  border: 1px dotted black;
+  position: absolute;
+  left: 362px;
+  top: 75px;
+  resize: none;
+}
