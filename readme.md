@@ -30,28 +30,28 @@ An alternative solution to the carnet web interface perfect for smarthome displa
 
 
 ### Variable key
-`Schedule.py`
-  db_host - server host url/ RDS endpoint
-  db_username - server username
-  db_password - server password
-  db_name - database name
-  tablename - table name, use format \`name\`
-  port - connection port
-  self.carnet_username - carnet username
-  self.carnet_password - carnet password
-`FetchDB.py`
-  host - server host url/ RDS endpoint
-  name - server username
-  password - server password
-  db_name - database name
-  tablename - table name
-  index - index of `statustime` (default -1 if you didn't change the order of the fields)
-  port - connection port
-`Fetch.php`
-  fetchDB - API gateway trigger url for the `FetchDB.py` function
-`Trigger.php`
-  runtask - API gateway trigger url for the [Carnet_http](https://github.com/Strosel/Carnet_http) function
-  update - API gateway trigger url for the `Schedule.py` function
+`Schedule.py`<br>
+ \- db_host - server host url/ RDS endpoint <br>
+ \- db_username - server username <br>
+ \- db_password - server password <br>
+ \- db_name - database name <br>
+ \- tablename - table name, use format \`name\` <br>
+ \- port - connection port <br>
+ \- self.carnet_username - carnet username <br>
+ \- self.carnet_password - carnet password <br>
+`FetchDB.py`<br>
+ \- host - server host url/ RDS endpoint <br>
+ \- name - server username <br>
+ \- password - server password <br>
+ \- db_name - database name <br>
+ \- tablename - table name <br>
+ \- index - index of `statustime` (default -1 if you didn't change the order of the fields) <br>
+ \- port - connection port <br>
+`Fetch.php`<br>
+ \- fetchDB - API gateway trigger url for the `FetchDB.py` function <br>
+`Trigger.php`<br>
+ \- runtask - API gateway trigger url for the [Carnet_http](https://github.com/Strosel/Carnet_http) function <br>
+ \- update - API gateway trigger url for the `Schedule.py` function <br>
 
 ## Have an Echo?
 Look no further than [here](https://github.com/Strosel/Carnet-alexa) for the Alexa version to complete the smarthome experience.
